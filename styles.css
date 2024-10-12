@@ -44,7 +44,7 @@ header {
 
 .contact-info {
     text-align: right; /* Right aligns contact info */
-    font-size: 16px; /* Font size for contact info */
+    font-size: 20px; /* Font size for contact info */
     display: flex; /* Use flexbox for contact info */
     flex-direction: column; /* Arrange icons vertically */
     margin-left: auto; /* Pushes contact info to the right */
