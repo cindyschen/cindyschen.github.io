@@ -23,46 +23,34 @@ header {
 }
 
 .header-container {
-    display: flex;
-    /* Enables flexbox layout */
-    justify-content: space-between;
-    /* Aligns items to the ends */
-    align-items: center;
-    /* Vertically center aligns items */
-    padding: 20px;
-    /* Add padding for spacing */
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-between; /* Aligns items to the ends */
+    align-items: center; /* Vertically center aligns items */
+    width: 90%; /* Width of the header container */
+    margin: 0 auto; /* Center the container itself */
 }
 
 .header-title {
-    text-align: left;
-    /* Aligns title to the left */
+    text-align: center; /* Center aligns title and welcome message */
+    flex-grow: 1; /* Allows the title section to take available space */
 }
 
 .contact-info {
-    text-align: right;
-    /* Aligns contact info to the right */
-    font-size: 16px;
-    /* Font size for contact info */
-    display: flex;
-    /* Use flexbox for contact info */
-    flex-direction: column;
-    /* Arrange icons vertically */
+    text-align: right; /* Right aligns contact info */
+    font-size: 16px; /* Font size for contact info */
+    display: flex; /* Use flexbox for contact info */
+    flex-direction: column; /* Arrange icons vertically */
 }
 
 .contact-info p {
-    margin: 0;
-    /* Remove default margin for paragraphs */
-    display: flex;
-    /* Align icon and text horizontally */
-    align-items: center;
-    /* Center items vertically */
+    margin: 0; /* Remove default margin for paragraphs */
+    display: flex; /* Align icon and text horizontally */
+    align-items: center; /* Center items vertically */
 }
 
 .contact-info i {
-    margin-right: 5px;
-    /* Add space between icon and text */
-    color: #007acc;
-    /* Change icon color */
+    margin-right: 5px; /* Add space between icon and text */
+    color: #007acc; /* Change icon color */
 }
 
 .contact-info a {
