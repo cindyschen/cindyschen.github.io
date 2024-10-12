@@ -19,11 +19,19 @@ header {
 }
 
 .header-container {
-    display: flex; /* Use Flexbox for alignment */
-    justify-content: space-between; /* Space between title and contact info */
-    align-items: center; /* Center items vertically */
-    max-width: 1200px; /* Max width for the header */
-    margin: auto; /* Center the header */
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-between; /* Aligns items to the ends */
+    align-items: center; /* Vertically center aligns items */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.header-title {
+    text-align: left; /* Aligns title to the left */
+}
+
+.contact-info {
+    text-align: right; /* Aligns contact info to the right */
+    font-size: 14px; /* Optional: Adjust font size for contact info */
 }
 
 .header-title {
