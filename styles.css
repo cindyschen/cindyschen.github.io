@@ -36,11 +36,13 @@ header {
 }
 
 .header-title h1 {
-    font-size: 32px; /* Change this value to your desired size */
+    font-size: 50px; /* Adjust this value for your desired size */
+    margin: 0; /* Remove default margin */
 }
 
 .header-title p {
-    font-size: 20px; /* Change this value to your desired size */
+    font-size: 30px; /* Adjust this value for your desired size */
+    margin: 5px 0; /* Adds some space above and below the paragraph */
 }
 
 .contact-info {
