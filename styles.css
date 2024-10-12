@@ -35,6 +35,14 @@ header {
     flex-grow: 1; /* Allows the title section to take available space */
 }
 
+.header-title h1 {
+    font-size: 64px; /* Change this value to your desired size */
+}
+
+.header-title p {
+    font-size: 24px; /* Change this value to your desired size */
+}
+
 .contact-info {
     text-align: right; /* Right aligns contact info */
     font-size: 16px; /* Font size for contact info */
