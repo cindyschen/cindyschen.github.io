@@ -57,8 +57,7 @@ header {
 }
 
 .contact-info i {
-    margin-right: 5px; /* Add space between icon and text */
-    color: #007acc; /* Change icon color */
+    margin-right: 7px; /* Add space between icon and text */
 }
 
 .contact-info a {
