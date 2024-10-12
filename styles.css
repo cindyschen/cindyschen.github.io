@@ -1,16 +1,11 @@
 /* Reset some default browser styling */
-body,
-h1,
-h2,
-p,
-ul {
+body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    /* Use Roboto for body text */
+    font-family: 'Roboto', sans-serif; /* Use Roboto for body text */
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -23,40 +18,44 @@ header {
     text-align: center;
 }
 
+.header-container {
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: space-between; /* Space between title and contact info */
+    align-items: center; /* Center items vertically */
+    max-width: 1200px; /* Max width for the header */
+    margin: auto; /* Center the header */
+}
+
+.header-title {
+    text-align: center; /* Center align title and welcome message */
+}
+
 header h1 {
-    font-family: 'Montserrat', sans-serif;
-    /* Use Montserrat for header text */
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat for header text */
     font-size: 48px;
     margin-bottom: 10px;
 }
 
 header p {
     font-size: 20px;
-    margin-bottom: 10px;
-    /* Adjusted for better spacing */
+    margin-bottom: 10px; /* Adjusted for better spacing */
 }
 
 .contact-info {
-    margin-top: 10px;
-    /* Space between welcome message and contact info */
-    font-size: 16px;
-    /* Font size for contact info */
+    text-align: right; /* Right align contact info */
+    font-size: 16px; /* Font size for contact info */
 }
 
 .contact-info a {
-    color: #007acc;
-    /* Link color */
-    text-decoration: none;
-    /* Remove underline from links */
+    color: #007acc; /* Link color */
+    text-decoration: none; /* Remove underline from links */
 }
 
 .contact-info a:hover {
-    text-decoration: underline;
-    /* Underline on hover */
+    text-decoration: underline; /* Underline on hover */
 }
 
-.about,
-.projects {
+.about, .projects {
     margin: 40px auto;
     width: 80%;
     max-width: 1000px;
@@ -66,17 +65,14 @@ header p {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.about h2,
-.projects h2 {
-    font-family: 'Montserrat', sans-serif;
-    /* Use Montserrat for section headings */
+.about h2, .projects h2 {
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat for section headings */
     color: #333;
     margin-bottom: 20px;
     font-size: 32px;
 }
 
-.about p,
-.projects ul {
+.about p, .projects ul {
     font-size: 18px;
 }
 
