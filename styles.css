@@ -40,6 +40,7 @@ header {
     font-size: 16px; /* Font size for contact info */
     display: flex; /* Use flexbox for contact info */
     flex-direction: column; /* Arrange icons vertically */
+    margin-left: auto; /* Pushes contact info to the right */
 }
 
 .contact-info p {
@@ -54,15 +55,12 @@ header {
 }
 
 .contact-info a {
-    color: #007acc;
-    /* Change link color */
-    text-decoration: none;
-    /* Remove underline from links */
+    color: #007acc; /* Change link color */
+    text-decoration: none; /* Remove underline from links */
 }
 
 .contact-info a:hover {
-    text-decoration: underline;
-    /* Underline on hover */
+    text-decoration: underline; /* Underline on hover */
 }
 
 .about,
