@@ -72,13 +72,14 @@ header {
 .about,
 .skills,
 .projects {
-    margin: 40px auto;
-    width: 90%;
-    max-width: 1000px;
+    margin: 40px auto; /* Maintain margin for centering */
+    width: 90%; /* Adjust this if you want it wider */
+    max-width: 1200px; /* Increase max-width for a larger box */
     background-color: white;
-    padding: 20px;
+    padding: 30px; /* Increase padding for more internal space */
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Hides any overflowing content */
 }
 
 .about h2,
