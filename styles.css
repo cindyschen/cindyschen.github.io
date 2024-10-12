@@ -74,7 +74,7 @@ header {
 .projects {
     margin: 40px auto; /* Maintain margin for centering */
     width: 90%; /* Adjust this if you want it wider */
-    max-width: 1400px; /* Increase max-width for a larger box */
+    max-width: 1300px; /* Increase max-width for a larger box */
     background-color: white;
     padding: 30px; /* Increase padding for more internal space */
     border-radius: 8px;
