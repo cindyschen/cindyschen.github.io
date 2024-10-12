@@ -32,6 +32,27 @@ header {
 .contact-info {
     text-align: right; /* Aligns contact info to the right */
     font-size: 14px; /* Optional: Adjust font size for contact info */
+    display: flex; /* Use flexbox for contact info */
+    flex-direction: column; /* Arrange icons vertically */
+}
+
+.contact-info p {
+    margin: 0; /* Remove default margin for paragraphs */
+    display: flex; /* Align icon and text horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.contact-info i {
+    margin-right: 5px; /* Add space between icon and text */
+    color: #007acc; /* Change icon color */
+}
+
+.contact-info a {
+    color: #007acc; /* Change link color */
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
 
 .header-title {
