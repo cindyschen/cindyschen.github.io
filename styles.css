@@ -32,15 +32,14 @@ header {
 
 .header-title {
     text-align: center; /* Center aligns title and welcome message */
-    flex-grow: 1; /* Allows the title section to take available space */
 }
 
 .header-title h1 {
-    font-size: 64px; /* Change this value to your desired size */
+    font-size: 32px; /* Change this value to your desired size */
 }
 
 .header-title p {
-    font-size: 24px; /* Change this value to your desired size */
+    font-size: 20px; /* Change this value to your desired size */
 }
 
 .contact-info {
@@ -72,6 +71,7 @@ header {
 }
 
 .about,
+.skills,
 .projects {
     margin: 40px auto;
     width: 90%;
@@ -83,6 +83,7 @@ header {
 }
 
 .about h2,
+.skills h2,
 .projects h2 {
     font-family: 'Montserrat', sans-serif;
     /* Use Montserrat for section headings */
@@ -92,6 +93,7 @@ header {
 }
 
 .about p,
+.skills p,
 .projects ul {
     font-size: 18px;
 }
