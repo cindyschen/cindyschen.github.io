@@ -2,3 +2,9 @@ body {
     margin: 0;
     background: gray;
 }
+
+header {
+    background-color: black;
+    color: white;
+    font-size: 48px;
+}
